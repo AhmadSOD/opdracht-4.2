@@ -1,0 +1,63 @@
+h1 {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 16px;
+    color: Teal;
+    font-weight: bold;
+}
+
+p {
+    color: #000000;
+}
+
+p:first-of-type {
+    font-weight: bold;
+    color: rgb(217, 217, 51);
+}
+
+a {
+    color: #8A2BE2;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 33vh;
+    background-image: url(/opdracht_4.1/img/download.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+img {
+    width: 50vw;
+}
+
+article {
+    border: 1px solid #ffd500;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 10px;
+    position: relative;
+}
+article::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10px;
+    height: 100%;
+    width: 10px;
+    background-color: #ffd500;
+}
